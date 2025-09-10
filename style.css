@@ -38,12 +38,12 @@ ul.verticaal {
 
 li a {
   display: block;
-  color: rgb(165, 193, 245);
+  color: rgb(129, 227, 227);
   padding: 8px 16px;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: #000000;
-  color: rgb(165, 193, 245);
+  color: rgb(129, 227, 227);
 }
