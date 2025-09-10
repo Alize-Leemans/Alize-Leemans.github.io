@@ -4,7 +4,7 @@ color: aliceblue;
 }
 
 
-ul.ho {
+ul.horizontaal {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ ul.ho {
   background-color: #a19595;
 }
 
-ul li {
+ul.horizontaal li {
   float: left;
 }
 
