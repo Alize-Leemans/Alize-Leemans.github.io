@@ -3,28 +3,6 @@ background-color: rgb(165, 193, 245);
 color: aliceblue;
 }
 ul {
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-
-li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #555555;
-  color: white;
-}
-  
-}
-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,4 +24,26 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+ul {
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+  
 }
