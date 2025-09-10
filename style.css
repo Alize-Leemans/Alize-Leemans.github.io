@@ -16,7 +16,7 @@ ul.horizontaal li {
   float: left;
 }
 
-ul li a {
+ul.horizontaal li a {
   display: block;
   color: rgb(129, 227, 227);
   text-align: center;
@@ -24,6 +24,6 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+ul.horizontaal li a:hover {
   background-color: #111111;
 }
