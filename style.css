@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #a19595;
 }
 
 ul li {
@@ -18,7 +18,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(129, 227, 227);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -26,25 +26,4 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-
-li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #555555;
-  color: white;
 }
