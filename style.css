@@ -51,7 +51,7 @@ li.dropdown {
   position: absolute;
   background-color: #a19595;
   min-width: 160px;
-  box-shadow: 14px 16px; rgba(0,0);
+  box-shadow: 14px 16px;
   z-index: 1;
 }
 
