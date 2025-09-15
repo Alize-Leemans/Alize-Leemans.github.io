@@ -9,7 +9,6 @@ ul.horizontaal {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  min-width: 200px;
   overflow: hidden;
   background-color: #a19595;
 }
@@ -23,6 +22,7 @@ ul.horizontaal li a {
   color: rgb(129, 227, 227);
   text-align: center;
   padding: 14px 16px;
+  min-width: 200px;
   text-decoration: none;
 }
 
