@@ -69,3 +69,34 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      border: 1px solid #ddd;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      vertical-align: top;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+      text-align: left;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    img {
+      display: block;
+      margin-top: 10px;
+      max-width: 100%;
+      height: auto;
+    }
