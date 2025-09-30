@@ -32,7 +32,7 @@ ul.horizontaal li a:hover {
   background-color: #111111;
 
 }
-
+/*Dit gaat over het dropdown menu. Deze dingen zijn bovenaan ook uitgelegd.*/
 li a, .dropbtn {
   display: inline-block;
   color:#a19595 ;
@@ -41,7 +41,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn { /*Hover betekent dat er elementen worden geselecteerd als je met je muis eroverheen gaat.*/
   background-color: rgb(0, 0, 0);
 }
 
@@ -51,17 +51,17 @@ li.dropdown {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: absolute; /*Position gaat over de positionering. Bij abosolute wordt het neergezet bij het dichtsbijzijnde voorgaande element.*/
   background-color: #a19595;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*Box shadow gaat over of er schaduw achter je box zit*/
+  z-index: 1; /*z-index gaat over de stapelvolgorde van een element, welke komt eerst, welke komt daarna*/
 }
 
 .dropdown-content a {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  min-width: none;
+  min-width: none; /*Dit gaat over de minimale breedte van het element*/
   display: block;
   text-align: left;
 }
@@ -74,7 +74,7 @@ li.dropdown {
 
 table {
       width: 80%;
-      border-collapse: collapse;
+      border-collapse: collapse; /*Hiermee bepaal je of de tabelranden moeten worden samengevoegt tot ééń rand of moeten worden gescheiden.*/
       margin: 20px auto;
       font-family: Arial, sans-serif;
       border: 1px solid #000000;
