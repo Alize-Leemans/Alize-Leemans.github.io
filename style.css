@@ -21,7 +21,7 @@ ul.horizontaal li {
 }
 
 ul.horizontaal li a {
-  display: block; 
+  display: block; /*Display is dat je kan wijzigen hoe het normaal wordt neergezet. Een blokelement begint altijd op een nieuwe regel en neemt de volledige beschikbare breedte in beslag.*/
   color: rgb(129, 227, 227);
   text-align: center;
   padding: 14px 16px;
