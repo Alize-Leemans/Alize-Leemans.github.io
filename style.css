@@ -1,10 +1,11 @@
+/*Hier zie je de basisinformatie van mijn website. De achtergrondkleur, de tekstkleur en de padding aan de zijkanten.*/
 body{
 background-color: rgb(165, 193, 245);
 color: aliceblue;
 padding: 0;
 }
 
-
+/*Hieronder is een lang stuk over de de balk bovenaan.*/
 ul.horizontaal {
   list-style-type: none;
   margin: 0;
