@@ -112,10 +112,15 @@ table {
 }
 
 .plaatjes-container {
-  display: flex;
-  gap: 10px;
+display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 gelijke kolommen */
+  gap: 10px; /* ruimte tussen de plaatjes */
+  max-width: 900px; /* optioneel: maximale breedte */
+  margin: 0 auto; /* optioneel: centreren op de pagina */
 }
 
 .plaatjes-container img {
-  width: 200px;
+  width: 100%;
+  height: auto;
+  display: block; /* voorkomt witte ruimte onder de afbeelding */
 }
