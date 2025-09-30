@@ -85,7 +85,7 @@ table {
     }
     th {
       background-color: #a3e1a3;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align: left;
     }
     tr:nth-child(even) {
