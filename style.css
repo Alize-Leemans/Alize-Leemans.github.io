@@ -111,4 +111,5 @@ table {
 
 #bodyindex{
   background-image:url(Plaatjes/Achtergrond\ plaatje\ index.jpg) ;
+  background-repeat: repeat-x;
 }
