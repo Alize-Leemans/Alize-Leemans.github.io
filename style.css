@@ -113,7 +113,7 @@ table {
 
 .plaatjes-container {
 display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 gelijke kolommen */
+  grid-template-columns: repeat(4, 1fr); /* 4 gelijke kolommen */
   gap: 10px; /* ruimte tussen de plaatjes */
   max-width: 900px; /* optioneel: maximale breedte */
   margin: 0 auto; /* optioneel: centreren op de pagina */
