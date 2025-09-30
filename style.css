@@ -77,19 +77,20 @@ table {
       border-collapse: collapse; /*Hiermee bepaal je of de tabelranden moeten worden samengevoegt tot ééń rand of moeten worden gescheiden.*/
       margin: 20px auto;
       font-family: Arial, sans-serif; /*Dit gaat over het lettertype*/
-      border: 1px solid #000000;
+      border: 1px solid #000000; /*Dit gaat over de rand. De dikte en de kleur zijn aangegeven.*/
     }
     th, td {
       border: 1px solid #000000;
       padding: 15px;
-      vertical-align: top;
+      vertical-align: top; /*Vertical-align gaat over dat het element verticaal geplaatst is en in dit geval een beetje bovenaan.*/
     }
     th {
       background-color: #a3e1a3;
       color: rgb(0, 0, 0);
       text-align: left;
     }
-    tr:nth-child(even) {
+    /*n betekent het kind ervan. Dus het kind van th.*/
+    tr:nth-child(even) { 
       background-color: #f9f9f9;
     }
     p {
