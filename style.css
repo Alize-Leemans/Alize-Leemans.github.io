@@ -76,7 +76,7 @@ table {
       width: 80%;
       border-collapse: collapse; /*Hiermee bepaal je of de tabelranden moeten worden samengevoegt tot ééń rand of moeten worden gescheiden.*/
       margin: 20px auto;
-      font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif; /*Dit gaat over het lettertype*/
       border: 1px solid #000000;
     }
     th, td {
