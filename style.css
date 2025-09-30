@@ -104,5 +104,6 @@ table {
     table, th, td {
   background-color: rgb(225, 205, 239);
   margin-right: 5%;
-  border-radius: 25px;
+  border: 2px solid rgb(152, 149, 149);
+  border-radius: 5px;
 }
