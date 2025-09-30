@@ -23,9 +23,9 @@ ul.horizontaal li {
 ul.horizontaal li a {
   display: block; /*Display is dat je kan wijzigen hoe het normaal wordt neergezet. Een blokelement begint altijd op een nieuwe regel en neemt de volledige beschikbare breedte in beslag.*/
   color: rgb(129, 227, 227);
-  text-align: center;
+  text-align: center; /*Dit betekent hoe de tekst staat. Links, in het midden of rechts.*/
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*Bij text-decoration kan je je tekst decoreren door een lijn eronder te zetten, het een kleur te geven of een bepaalde stijl of dikte te geven.*/
 }
 
 ul.horizontaal li a:hover {
