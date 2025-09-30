@@ -108,5 +108,5 @@ table {
   background-color: rgb(225, 205, 239);
   margin-right: 5%;
   border: none;
-  border-radius: 16px;
+  border-radius: 16px; /*Dit gaat over hoe rond de randen van de tabel zijn, hoe meer px, hoe ronder de randen.*/
 }
