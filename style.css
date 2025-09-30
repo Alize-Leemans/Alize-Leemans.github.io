@@ -7,8 +7,8 @@ padding: 0;
 
 /*Hieronder is een lang stuk over de de balk bovenaan. Dit is het horizontale menu.*/
 ul.horizontaal {
-  list-style-type: none;
-  margin: 0;
+  list-style-type: none; /*Ik heb geen lijst gemaakt.*/
+  margin: 0; /*Tekst*/
   padding: 0;
   overflow: hidden;
   min-width: none;
@@ -16,7 +16,7 @@ ul.horizontaal {
 }
 
 ul.horizontaal li {
-  float: left;
+  float: left; /*Het menu blijft aan de linkerkant zweven.*/
 }
 
 ul.horizontaal li a {
