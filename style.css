@@ -124,3 +124,10 @@ display: grid;
   height: auto;
   display: block; /*Dit voorkomt de witte ruimte onder de afbeelding.*/
 }
+
+/*Dit is de informatie over de footer.*/
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
