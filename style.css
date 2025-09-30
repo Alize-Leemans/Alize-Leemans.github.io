@@ -2,25 +2,26 @@
 body{
 background-color: rgb(165, 193, 245);
 color: rgb(0, 0, 0);
-padding: 0;
+padding: 0; /*Padding wordt gebruikt om ruimte te creëren rond een element binnen bepaalde randen. Hier staat dat uit.*/
 }
 
 /*Hieronder is een lang stuk over de de balk bovenaan. Dit is het horizontale menu.*/
 ul.horizontaal {
   list-style-type: none; /*Ik heb geen lijst gemaakt.*/
-  margin: 0; /*Tekst*/
+  margin: 0; /*Margin wordt gebruikt om ruimte te creëren rond elementen, buiten de randen. Margin is de afstand tussen de rand van een element en de omliggende elementen.*/
   padding: 0;
-  overflow: hidden;
-  min-width: none;
+  overflow: hidden; /*Overflow bepaalt wat er gebeurt met de inhoud die te groot is om in een gebied te passen. Hiermee wordt bepaald of de inhoud moet worden bijgesneden of dat er iets anders mee moet gebeuren.*/
+
+  min-width: none; /*De minimale breedte staat in dit geval uit.*/
   background-color: #a19595;
 }
-
+/*Dit is een lijst item.*/
 ul.horizontaal li {
   float: left; /*Het menu blijft aan de linkerkant zweven.*/
 }
 
 ul.horizontaal li a {
-  display: block;
+  display: block; 
   color: rgb(129, 227, 227);
   text-align: center;
   padding: 14px 16px;
