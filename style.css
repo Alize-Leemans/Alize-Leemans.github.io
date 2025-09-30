@@ -1,7 +1,7 @@
 /*Hier zie je de basisinformatie van mijn website. De achtergrondkleur, de tekstkleur en de padding aan de zijkanten.*/
 body{
 background-color: rgb(165, 193, 245);
-color: aliceblue;
+color: rgb(0, 0, 0);
 padding: 0;
 }
 
