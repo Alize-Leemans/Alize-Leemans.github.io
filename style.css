@@ -5,7 +5,7 @@ color: aliceblue;
 padding: 0;
 }
 
-/*Hieronder is een lang stuk over de de balk bovenaan.*/
+/*Hieronder is een lang stuk over de de balk bovenaan. Dit is het horizontale menu.*/
 ul.horizontaal {
   list-style-type: none;
   margin: 0;
