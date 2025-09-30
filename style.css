@@ -110,17 +110,17 @@ table {
   border: none;
   border-radius: 16px; /*Dit gaat over hoe rond de randen van de tabel zijn, hoe meer px, hoe ronder de randen.*/
 }
-
+/*Ik heb een container of klasse gemaakt zodat ik de plaatjes naast elkaar kon zetten.*/
 .plaatjes-container {
 display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 gelijke kolommen */
-  gap: 10px; /* ruimte tussen de plaatjes */
-  max-width: 900px; /* optioneel: maximale breedte */
-  margin: 0 auto; /* optioneel: centreren op de pagina */
+  grid-template-columns: repeat(4, 1fr); /*4 gelijke kolommen*/
+  gap: 10px; /*Dit is de ruimte tussen de plaatjes.*/
+  max-width: 900px; /*Dit is de maximale breedte.*/
+  margin: 0 auto;
 }
 
 .plaatjes-container img {
   width: 100%;
   height: auto;
-  display: block; /* voorkomt witte ruimte onder de afbeelding */
+  display: block; /*Dit voorkomt de witte ruimte onder de afbeelding.*/
 }
