@@ -110,3 +110,12 @@ table {
   border: none;
   border-radius: 16px; /*Dit gaat over hoe rond de randen van de tabel zijn, hoe meer px, hoe ronder de randen.*/
 }
+
+.plaatjes-container {
+  display: flex;
+  gap: 10px;
+}
+
+.plaatjes-container img {
+  width: 200px;
+}
